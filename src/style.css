@@ -1,0 +1,130 @@
+/* purgecss start ignore */
+@tailwind base;
+
+body {
+  height: 100vh;
+}
+
+h1 {
+  @apply text-3xl font-bold;
+}
+h2 {
+  @apply text-xl font-bold;
+}
+h3 {
+  @apply font-bold;
+}
+a {
+  @apply underline;
+}
+a:hover {
+  @apply text-blue-700 no-underline;
+}
+p {
+  @apply mb-4;
+}
+
+ul {
+  @apply list-disc pl-6;
+}
+
+ol {
+  @apply list-decimal pl-6;
+}
+
+hr {
+  @apply my-4;
+}
+
+.refs-box a {
+  @apply text-gray-600;
+}
+
+blockquote {
+  @apply py-1 px-4 mb-4 border-l-2 border-blue-500;
+}
+blockquote p {
+  @apply m-0 font-serif text-xl;
+}
+
+code {
+  @apply text-sm text-orange-800 bg-orange-100 px-1 -mx-1 rounded;
+}
+
+pre {
+  @apply mb-4 p-2 rounded bg-gray-100;
+  overflow-x: auto;
+}
+
+pre > code {
+  @apply p-0 m-0 mb-2 bg-transparent;
+}
+
+@tailwind components;
+
+/* copied from tippy.js/animations/shift-away.css */
+.tippy-box[data-animation='shift-away'][data-state='hidden'] {
+  opacity: 0;
+}
+.tippy-box[data-animation='shift-away'][data-state='hidden'][data-placement^='top'] {
+  transform: translateY(10px);
+}
+.tippy-box[data-animation='shift-away'][data-state='hidden'][data-placement^='bottom'] {
+  transform: translateY(-10px);
+}
+.tippy-box[data-animation='shift-away'][data-state='hidden'][data-placement^='left'] {
+  transform: translateX(10px);
+}
+.tippy-box[data-animation='shift-away'][data-state='hidden'][data-placement^='right'] {
+  transform: translateX(-10px);
+}
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+.highlight {
+  @apply bg-yellow-200 px-1 -mx-1 rounded;
+}
+
+.handwritten-notes-img {
+  position: relative;
+  z-index: 0;
+}
+
+.handwritten-notes-content {
+  position: absolute;
+  top: 140px;
+  width: 400px;
+  color: transparent;
+  z-index: 0;
+}
+
+/* purgecss start ignore */
+
+.handwritten-notes-content a {
+  color: transparent;
+}
+
+.handwritten-notes-content a[href='/ipad'] {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  top: 310px;
+  left: calc(50% - 63px);
+}
+
+.note-container {
+  max-width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .note-columns-container {
+    width: unset !important;
+  }
+
+  .note-container {
+    width: 100% !important;
+  }
+}
+
+/* purgecss end ignore */
