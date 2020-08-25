@@ -69,10 +69,9 @@ const BrainNote = ({ note }) => {
       <div className="refs-box bg-indigo-100 text-gray-600 rounded-lg mb-4 p-4">
         {referenceBlock}
         <p className="text-sm m-0">
-          If you think this note resonated, be it positive or negative, send me a{' '}
-          <a href="https://twitter.com/messages/compose?recipient_id=532906019">direct message</a>{' '}
-          on Twitter or an <a href="mailto:bsaaravind+notes@gmail.com">email</a> and we can talk.
-          Also ping if you'd like to know the updates on this note.
+          If something in this note resonated with you—positive or negative—feel free to send me a{' '}
+          <a href="https://twitter.com/messages/compose?recipient_id=375132818">direct message</a>{' '}
+          on Twitter or an <a href="mailto:kylerobertgill+notes@gmail.com">email</a> and let's chat.
         </p>
       </div>
     </MDXProvider>

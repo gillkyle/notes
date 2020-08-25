@@ -8,11 +8,11 @@ These notes are bi-directionally linked to make navigating them a little more li
 
 Each page is intended to be an atomic, self-standing idea or concept that can be developed on its own, or related to other notes of a similar fashion. Notes aren't fully complete, but are instead being [gardened](https://joelhooks.com/digital-garden)—or rather, improved and nurtured over time.
 
-Some of the places I've been tending to the most thought to are in the following:
+Some of the places I've been tending the most thought to are in the following areas:
 
-- [[Digital Minimalism]]
-
-- The value of [[Religion]]
+- impact of [[digital minimalism]]
+- value of [[religion]]
+- importance of [[writing]] to preserve ideas
 
 ---
 
