@@ -19,3 +19,10 @@ I started writing in a physical journal, and found it valuable. I found it lacke
 The first piece of criteria makes it easiest to obtain in digital form.
 
 These ideas led me to making my own [open source journaling platform](https://github.com/gillkyle/sol-journal) that faciliated all of this.
+
+The different types of journals that I've found helpful (in this order) are:
+
+1. personal journals: writing about thoughts and life events
+2. study journals: writing down learnings from study of scriptures, books, or lessons
+3. gratitude journals: writing down things you are thankful or grateful for
+4. bullet journals: writing down bullets of things done in a given day

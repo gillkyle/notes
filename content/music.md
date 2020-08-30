@@ -9,3 +9,13 @@ Music comes in many genres, and I think each genre is a decent set of boundaries
 - Do I listen to the song all the way through? (frequently wanting to skip a song prematurely is a great signifier of an average song to me)
 - Do I find something moving about the song? (could be lyrics, dynamics, melody, sound design, etc.)
 - Does it agree with standards and values that are important to me? (songs that are profane, crude, and glorify baseness aren't appealing and aren't worth the time with so much alternative, wholesome content out there)
+
+This traits are how I select music to feature on my [music blog](https://audio-vault.com), and is also how I sort through music when I'm looking for new additions to my library.
+
+I listen to many hours of music every day and have followed all sorts of music blogs and record labels to watch trends and see what is moving in the music industry. I find it really fulfilling.
+
+## Favorite songs that meet the art form criteria
+
+- [Luminous Beings by Jon Hopkins](https://www.audio-vault.com/jon-hopkins-luminous-beings)
+- [Awake by Tycho](https://www.audio-vault.com/awake-tycho)
+- [Ode to Sleep by Twenty One Pilots](https://www.audio-vault.com/ode-to-sleep-twenty-one-pilots)
