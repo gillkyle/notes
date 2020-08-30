@@ -1,0 +1,11 @@
+---
+title: 'Music as an Art Form'
+---
+
+I think music represents one of the most unique art forms in the world. It's enjoyed by virtually everyone (unlike paintings, film, and sculpture which are commonly mocked), it cannot be consumed visually (unless a new art form like light or film is used to acompany it), and it can be extremely commerically successful in the modern world.
+
+Music comes in many genres, and I think each genre is a decent set of boundaries on identifying and categorizing songs, but does it a bit of a disservice as well. I try and ignore a genre before I start judging a song based on a few characteristics that I find really important in evaluating a song, which are:
+
+- Do I listen to the song all the way through? (frequently wanting to skip a song prematurely is a great signifier of an average song to me)
+- Do I find something moving about the song? (could be lyrics, dynamics, melody, sound design, etc.)
+- Does it agree with standards and values that are important to me? (songs that are profane, crude, and glorify baseness aren't appealing and aren't worth the time with so much alternative, wholesome content out there)

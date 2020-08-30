@@ -1,5 +1,6 @@
 ---
 title: 'Writing to Preserve Ideas'
+aliases: ['write']
 ---
 
 Even if the only benefit to writing were preserving ideas, it would be well worth it. In addition to keeping a record, writing can be read by others and scale nearly infinitely to create a broader influence.

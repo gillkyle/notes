@@ -1,0 +1,4 @@
+---
+title: 'Habits'
+aliases: ['habit']
+---

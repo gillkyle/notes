@@ -1,5 +1,5 @@
 ---
-title: Digital Minimalism
+title: Digital Minimalism and Intentional usage of Technology
 ---
 
 Using only the most necessary digital tools to support my own values is preferred to a maximalist approach, where every tool possible that might help is adopted.

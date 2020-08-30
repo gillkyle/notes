@@ -2,12 +2,14 @@
 title: The Value of Religion
 ---
 
-There is a pervasive attitude of religion being a more primitive way of thinking. I find that unsettling because of the dysfunction in a society that comes from rejecting shared [[truth]].
+I am a member of the Church of Jesus Christ of Latter-day Saints. It influences just about everything I do.
+
+I've found that there is a pervasive attitude of religion being a more primitive way of thinking (for example, that one can't be both religious and scientific). I find that unsettling because of the dysfunction in a society that comes from rejecting shared [[truth]].
 
 CS Lewis summed it up:
 
 > In a sort of ghastly simplicity we remove the organ and demand the function. We make men without chests and expect of them virtue and enterprise. We laugh at honour and are shocked to find traitors in our midst. We castrate and bid the geldings be fruitful. -C.S. Lewis
 
-If the only thing that matters is "your truth" (and truth becomes relative), it gets hard to discuss hard problems that relate to it.
+If the only thing that matters is "your truth" (and truth becomes relative), it gets hard to discuss hard problems that relate to it. C.S. Lewis suggests removing that set of beliefs is like removing an organ that drives the body.
 
-Religion teaches you to prioritize your life according to a set of higher laws.
+Religion has taught me to prioritize things in my life according to a set of higher laws, and that has made me significantly happier than when I fail to organize my life around what's most important to me.
