@@ -2,7 +2,7 @@
 title: Digital Minimalism and Intentional usage of Technology
 ---
 
-Using only the most necessary digital tools to support my own values is preferred to a maximalist approach, where every tool possible that might help is adopted.
+Using only the most necessary digital tools to support my own values is preferred to a maximalist approach, where every tool possible that might help is adopted. My thoughts on [[minimalism]] are analogous here when applied in a digital sense in that it's not about specifically about doing less, but more of what is important.
 
 Inspired by Cal Newport's book, [Digital Minimalism](https://www.calnewport.com/books/digital-minimalism/), I've found being more intentional about my technology habits very rewarding.
 
