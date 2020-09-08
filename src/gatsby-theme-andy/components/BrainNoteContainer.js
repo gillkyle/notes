@@ -4,6 +4,7 @@ import { useStackedPagesProvider, LinkToStacked } from 'react-stacked-pages-hook
 import { Helmet } from 'react-helmet';
 
 import BrainNote from './BrainNote';
+import Header from './Header';
 
 import '../../style.css';
 
@@ -73,13 +74,7 @@ const BrainNotesContainer = ({ slug, note, location, siteMetadata }) => {
           {note.title} - {siteMetadata.title}
         </title>
       </Helmet>
-      <header>
-        <div className="font-bold py-2 border-b px-4">
-          <Link to="/" className="no-underline text-gray-900">
-            {siteMetadata.title}
-          </Link>
-        </div>
-      </header>
+      <Header siteMetadata={siteMetadata} />
 
       <div
         className="flex-1 flex flex-grow overflow-x-hidden md:overflow-x-auto overflow-y-hidden"

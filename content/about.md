@@ -2,6 +2,8 @@
 title: About these notes
 ---
 
+import {Link} from "gatsby"
+
 Hi, I'm [Kyle](https://kylegill.com) 👋
 
 These notes are bi-directionally linked to make navigating them a little more like deep linking your way through Wikipedia articles.
@@ -24,6 +26,8 @@ I write down notes in more places than just these notes. A few more places you c
 - [study.kylegill.com](https://study.kylegill.com): where I write about my study in the Come, Follow Me curriculum which includes annotations of scripture and thougths on stories from the gospel and life of [[Jesus Christ]]
 - My [blog](https://kylegill.com/blog): where I write about programming and life related topics (often mixed), and longer form ideas related to it
 - [Twitter](https://twitter.com/gill_kyle): where I post programming related demos and new technologies, how to use them, and what's exciting. It's worth noting I don't post often anymore as I've been trying to be more mindful about [[digital minimalism]] and my [[habits]]
+
+<div>If you'd like to see a list of all pages on this knowledge graph, you can view then at the <Link to="/overview">Graph Overview</Link></div>
 
 ---
 

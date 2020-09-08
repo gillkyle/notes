@@ -20,3 +20,5 @@ My ideal morning routine looks like this:
 - ...
 
 Based on the above quote, this is all facilitated by getting to bed around 11pm, otherwise I'm too tired and start the day on a bad note.
+
+_This routine is closely tied to my [[nightly routine]]_
