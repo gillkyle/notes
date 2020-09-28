@@ -2,7 +2,7 @@
 title: 'Discovery by Asking Questions'
 ---
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 Learning by asking questions seems to be one of the best ways to _actually_ get to the truth of something under scrutiny. I think this is a key piece of true [[religion]]. There are great examples from the past that show just how influential some well considered questions can have.
 
@@ -21,6 +21,9 @@ A [comic by Kostas Kiriakakis](http://kiriakakis.net/comics/mused/a-day-at-the-p
 
 export const Cycle = () => {
   const [step, setStep] = useState(1);
+  useEffect(() => {
+    setStep(1);
+  }, []);
   const cycleChange = (stepAmount) => {
     if (step <= 1 && stepAmount <= 0) {
       return;
