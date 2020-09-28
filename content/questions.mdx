@@ -1,0 +1,62 @@
+---
+title: 'Discovery by Asking Questions'
+---
+
+import { useState } from 'react';
+
+Learning by asking questions seems to be one of the best ways to _actually_ get to the truth of something under scrutiny. I think this is a key piece of true [[religion]]. There are great examples from the past that show just how influential some well considered questions can have.
+
+1. Nephi and the tree of Life
+2. Joseph Smith and the Restoration of the Gospel of Jesus Christ
+
+## Strong Opinions, Weakly Held
+
+The famous quote from Stanford professor Paul Saffo sums up a lot of these ideas in an easy to remember mantra:
+
+> Strong Opinions, Weakly Held -Paul Saffo
+
+It represents what I think is an important point of any question, coming to an answer/conclusion, but letting that conclusion be displaced by a better answer/conclusion.
+
+A [comic by Kostas Kiriakakis](http://kiriakakis.net/comics/mused/a-day-at-the-park) really helped me solidify this idea in my mind.
+
+export const Cycle = () => {
+  const [step, setStep] = useState(1);
+  const cycleChange = (stepAmount) => {
+    if (step <= 1 && stepAmount <= 0) {
+      return;
+    }
+    if (step >= 18 && stepAmount >= 0) {
+      return;
+    }
+    setStep(step + stepAmount);
+  };
+  return (
+    <div>
+      <div className="flex justify-between">
+        <button
+          className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded ${
+            step <= 1 && `opacity-50 cursor-not-allowed`
+          }`}
+          disabled={step <= 1}
+          onClick={() => cycleChange(-1)}
+        >
+          Prev Panel
+        </button>
+        <div>{step}/18</div>
+        <button
+          className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded ${
+            step >= 18 && `opacity-50 cursor-not-allowed`
+          }`}
+          onClick={() => cycleChange(1)}
+        >
+          Next Panel
+        </button>
+      </div>
+      <img src={`./Mused-park-${step}.jpg`} />
+    </div>
+  );
+};
+
+<Cycle />
+
+I'm fascinated by this comic because it teaches a principle I am coming to appreciate more and more, focusing on a question rather than stubbornly on an answer. If new information can displace a weak explanation for something, why hold onto the weak answer? I think that dogma (be it religious or political) too often stems from the thinking that favors answers over questions.

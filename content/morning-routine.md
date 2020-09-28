@@ -22,3 +22,17 @@ My ideal morning routine looks like this:
 Based on the above quote, this is all facilitated by getting to bed around 11pm, otherwise I'm too tired and start the day on a bad note.
 
 _This routine is closely tied to my [[nightly routine]]_
+
+## The Importance of mornings
+
+> 5 For his anger endureth but a moment; in his favour is life: weeping may endure for a night, but **joy cometh in the morning**. -Psalms 30:5
+
+Many places in scripture emphasize the high value of mornings relative to other times of day. Modern apostles have validated these claims as well.
+
+> 2 And early in the morning he came again into the temple, and all the people came unto him; and he sat down, and taught them. -John 8:2
+
+Jesus taught in the early morning. The early morning can be a great time to learn from the spirit.
+
+Gordon B. Hinckley made a strong promise related to mornings:
+
+> “If you go to bed at 10:00 and get up by 6:00 a.m., things will work out for you.” -Pres. Hinckley, Go Forward with Faith
