@@ -12,7 +12,9 @@
   "author": "Kyle Gill",
   "license": "MIT",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
     "@tippyjs/react": "^4.0.2",
+    "autoprefixer": "^9.7.6",
     "gatsby": "^2.20.36",
     "gatsby-plugin-mdx": "^1.2.13",
     "gatsby-plugin-postcss": "^2.2.4",
@@ -25,8 +27,6 @@
     "theme-ui": "0.3.1"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.1.2",
-    "autoprefixer": "^9.7.6",
     "fs": "^0.0.1-security",
     "slugify": "^1.4.5"
   }
