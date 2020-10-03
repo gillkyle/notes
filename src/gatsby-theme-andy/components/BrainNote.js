@@ -63,10 +63,10 @@ const BrainNote = ({ note }) => {
   return (
     <MDXProvider components={{ ...components, a: AnchorTagWithPopups }}>
       <div className="flex-1">
-        <h1 className="my-4">{note.title}</h1>
+        <h1 className="mb-4">{note.title}</h1>
         <MDXRenderer>{note.childMdx.body}</MDXRenderer>
       </div>
-      <div className="refs-box bg-indigo-100 text-gray-600 rounded-lg mb-4 p-4">
+      <div className="refs-box bg-blue-100 bg-opacity-50 border text-gray-600 rounded-md mb-4 p-4">
         {referenceBlock}
         <p className="text-sm m-0">
           If something in this note resonated with you—positive or negative—feel free to send me a{' '}

@@ -19,35 +19,48 @@ const StackedPageWrapper = ({
   overlay,
   obstructed,
   i,
-}) => (
-  <PageIndexProvider value={i}>
-    <div
-      className={`note-container md:max-w-xl px-4 overflow-y-auto bg-white md:sticky flex flex-col flex-shrink-0 ${
-        overlay ? 'shadow-lg' : ''
-      }`}
-      style={{ left: 40 * i, right: -585, width: NOTE_WIDTH }}
-    >
+}) => {
+  const isBrowser = typeof window !== `undefined`;
+
+  return (
+    <PageIndexProvider value={i}>
       <div
-        className={`md:block hidden transition-opacity duration-100 ${
-          obstructed ? `opacity-100` : `opacity-0`
+        className={`note-container md:max-w-xl py-4 px-8 overflow-y-auto bg-white md:sticky flex flex-col flex-shrink-0 ${
+          overlay ? 'shadow-lg' : ''
         }`}
+        style={{ left: 40 * i, right: -585, width: NOTE_WIDTH }}
       >
-        <div className={`transform rotate-90 origin-left pb-4 absolute z-10`}>
-          <LinkToStacked to={slug} className="no-underline text-gray-900">
-            <p className="m-0 font-bold">{title || slug}</p>
-          </LinkToStacked>
+        <LinkToStacked to={slug} className="no-underline text-gray-900">
+          <div
+            className={`${
+              isBrowser && !window.location.search ? `opacity-0` : `opacity-100`
+            } -mb-1 text-xs text-gray-500`}
+          >
+            Return to note
+          </div>
+        </LinkToStacked>
+        <div
+          className={`md:block hidden transition-opacity duration-100 ${
+            obstructed ? `opacity-100` : `opacity-0`
+          }`}
+        >
+          <div className={`transform rotate-90 origin-left pb-4 absolute z-10`}>
+            <LinkToStacked to={slug} className="no-underline text-gray-900">
+              <p className="m-0 font-bold">{title || slug}</p>
+            </LinkToStacked>
+          </div>
+        </div>
+        <div
+          className={`flex flex-col min-h-full transition-opacity duration-100 ${
+            obstructed ? `opacity-0` : `opacity-100`
+          }`}
+        >
+          {children}
         </div>
       </div>
-      <div
-        className={`flex flex-col min-h-full transition-opacity duration-100 ${
-          obstructed ? `opacity-0` : `opacity-100`
-        }`}
-      >
-        {children}
-      </div>
-    </div>
-  </PageIndexProvider>
-);
+    </PageIndexProvider>
+  );
+};
 
 const BrainNotesContainer = ({ slug, note, location, siteMetadata }) => {
   // process data from gatsby pageQuery API

@@ -8,6 +8,8 @@ I've had goals to be up at a certain time and I've found that they can be hard t
 
 > "the battle to get up in the morning is won or lost the night before" -Elder Gong
 
+This is a principle of [[preparation]].
+
 _I talked about this quote in [a blog post I recently published called A Farewll Address](https://kylegill.com/blog/2020-03-16-a-farewell-address/#the-battle-to-get-up-in-the-morning-is-won-or-lost-the-night-before)_
 
 My ideal morning routine looks like this:

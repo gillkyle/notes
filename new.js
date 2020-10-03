@@ -10,7 +10,7 @@ if (!title) {
 const slug = slugify(title.toLowerCase());
 
 fs.writeFileSync(
-  `./content/${slug}.md`,
+  `./content/${slug}.mdx`,
   `---
 title: "${title}"
 ---`,

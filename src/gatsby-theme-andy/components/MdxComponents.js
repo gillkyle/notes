@@ -46,7 +46,52 @@ const NoteTag = ({ children, color }) => (
   </div>
 );
 
+const Scripture = ({ title, link, children }) => {
+  return (
+    <div
+      className="border-solid border bg-blue-100 bg-opacity-50 p-4 -mx-4 my-4 font-serif rounded-md"
+      sx={{
+        border: (theme) => `1px solid ${theme.colors.border}`,
+        margin: `15px auto 50px`,
+        width: `100%`,
+        maxWidth: 744,
+        p: `4`,
+        color: `articleText`,
+        backgroundColor: `scriptureBg`,
+        fontSize: 18,
+        fontFamily: `Palatino`,
+        lineHeight: 1.5,
+        '& > *+*': {
+          mb: 2,
+        },
+      }}
+    >
+      <div
+        className="font-bold text-blue-600 mb-1"
+        sx={{
+          fontSize: `2`,
+          fontWeight: `700`,
+          mb: `1`,
+          fontStyle: `italic`,
+          color: `grey`,
+        }}
+      >
+        <a className="no-underline" href={link && link} target="_blank" rel="noopener noreferrer">
+          {title}
+        </a>
+      </div>
+      {children}
+    </div>
+  );
+};
+
+const ScriptureBreak = () => {
+  return <div sx={{ my: 10 }} />;
+};
+
 export default {
   a: AnchorTag,
   NoteTag,
+  Scripture,
+  br: ScriptureBreak,
 };

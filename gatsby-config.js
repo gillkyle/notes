@@ -10,6 +10,14 @@ module.exports = {
         mdxOtherwiseConfigured: true,
       },
     },
+    {
+      resolve: `gatsby-theme-andy`,
+      options: {
+        notesDirectory: `content/general-conference/`,
+        hideDoubleBrackets: true,
+        mdxOtherwiseConfigured: true,
+      },
+    },
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-mdx`,
