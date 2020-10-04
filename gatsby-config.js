@@ -18,5 +18,14 @@ module.exports = {
         gatsbyRemarkPlugins: [`gatsby-remark-embedder`],
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/img/`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 };

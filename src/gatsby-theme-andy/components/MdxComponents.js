@@ -2,6 +2,7 @@ import React from 'react';
 import Tippy from '@tippyjs/react';
 import { LinkToStacked } from 'react-stacked-pages-hook';
 import { Link } from 'gatsby';
+import Cycle from '../../components/cycle';
 
 // Animation styles are imported in `src/styles.css`
 
@@ -94,4 +95,5 @@ export default {
   NoteTag,
   Scripture,
   br: ScriptureBreak,
+  Cycle,
 };
