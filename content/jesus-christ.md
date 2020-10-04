@@ -1,5 +1,6 @@
 ---
 title: Jesus Christ
+aliases: ['Jesus', 'Jesus Christ', 'Christ', 'Savior']
 ---
 
 I believe that Jesus Christ is the most important person to have ever lived. Choosing to live a life like Jesus lived is a noble endeavor and I intend to live like Him as much as I can.

@@ -36,7 +36,7 @@ export const query = graphql`
         title
       }
     }
-    brain: allBrainNote {
+    brain: allBrainNote(sort: { fields: title }) {
       nodes {
         title
         slug
