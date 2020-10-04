@@ -21,7 +21,7 @@ const StackedPageWrapper = ({
   i,
 }) => {
   const isBrowser = typeof window !== `undefined`;
-  console.log(slug);
+
   return (
     <PageIndexProvider value={i}>
       <div
