@@ -22,7 +22,7 @@ const Overview = ({ data }) => {
           {data.brain.nodes.map((node) => (
             <Link
               to={`/${node.slug}`}
-              className="rounded p-2 transition duration-100 hover:bg-blue-100 no-underline border-solid"
+              className="rounded p-2 transition duration-100 hover:bg-blue-100 no-underline"
             >
               <div className="">
                 <h2 className="text-lg">{node.title}</h2>({node.inboundReferences.length} reference
