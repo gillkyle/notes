@@ -25,7 +25,7 @@ p {
 }
 
 ul {
-  @apply list-disc pl-6;
+  @apply list-disc pl-6 mb-4;
 }
 
 ol {
@@ -41,10 +41,10 @@ hr {
 }
 
 blockquote {
-  @apply py-1 px-4 mb-4 border-l-2 border-blue-500;
+  @apply py-1 px-4 mb-4 border-l-2 border-blue-300;
 }
 blockquote p {
-  @apply m-0 font-serif text-xl;
+  @apply m-0 font-serif text-lg text-gray-700;
 }
 
 code {
