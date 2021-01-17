@@ -50,7 +50,7 @@ const NoteTag = ({ children, color }) => (
 const Scripture = ({ title, link, children }) => {
   return (
     <div
-      className="border-solid border bg-blue-100 bg-opacity-50 p-4 -mx-4 my-4 font-serif rounded-md"
+      className="border-solid border bg-gray-100 bg-opacity-50 p-4 -mx-4 my-4 font-serif rounded-md"
       sx={{
         border: (theme) => `1px solid ${theme.colors.border}`,
         margin: `15px auto 50px`,
