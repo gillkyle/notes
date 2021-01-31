@@ -18,7 +18,7 @@ a {
   @apply underline;
 }
 a:hover {
-  @apply text-blue-700 no-underline;
+  @apply text-amber-700 no-underline;
 }
 p {
   @apply mb-4;
@@ -41,7 +41,7 @@ hr {
 }
 
 blockquote {
-  @apply py-1 px-4 mb-4 border-l-2 border-blue-300;
+  @apply py-1 px-4 mb-4 border-l-2 border-amber-300;
 }
 blockquote p {
   @apply m-0 font-serif text-lg text-gray-700;

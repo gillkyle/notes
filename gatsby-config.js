@@ -27,5 +27,17 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Notes | Kyle Gill',
+        short_name: 'Notes',
+        start_url: '/',
+        background_color: '#E6F1FF',
+        theme_color: '#FCD34D',
+        display: 'minimal-ui',
+        icon: 'src/img/favicon.png',
+      },
+    },
   ],
 };

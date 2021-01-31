@@ -37,7 +37,7 @@ const Cycle = () => {
     <div>
       <div className="flex justify-between">
         <button
-          className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded ${
+          className={`bg-amber-500 hover:bg-amber-700 text-white font-bold py-1 px-4 rounded ${
             step <= 1 && `opacity-50 cursor-not-allowed`
           }`}
           disabled={step <= 1}
@@ -47,7 +47,7 @@ const Cycle = () => {
         </button>
         <div>{step}/18</div>
         <button
-          className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded ${
+          className={`bg-amber-500 hover:bg-amber-700 text-white font-bold py-1 px-4 rounded ${
             step >= 18 && `opacity-50 cursor-not-allowed`
           }`}
           onClick={() => cycleChange(1)}

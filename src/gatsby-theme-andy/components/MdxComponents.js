@@ -6,7 +6,7 @@ import Cycle from '../../components/cycle';
 
 // Animation styles are imported in `src/styles.css`
 
-const innerLinkStyles = `text-blue-600 px-1 -mx-1 rounded hover:bg-blue-100 focus:bg-blue-100`;
+const innerLinkStyles = `text-amber-600 px-1 -mx-1 rounded hover:bg-amber-100 focus:bg-amber-100`;
 
 const AnchorTag = ({ href, popups = {}, noPopups = false, ...restProps }) => {
   if (!href) href = restProps.to;
@@ -31,7 +31,7 @@ const AnchorTag = ({ href, popups = {}, noPopups = false, ...restProps }) => {
       animation="shift-away"
       maxWidth="none"
       content={
-        <div className="py-1 px-2 bg-white rounded text-sm text-blue-600 shadow">{href}</div>
+        <div className="py-1 px-2 bg-white rounded text-sm text-amber-600 shadow">{href}</div>
       }
     >
       <a className="" {...restProps} href={href} />
@@ -68,7 +68,7 @@ const Scripture = ({ title, link, children }) => {
       }}
     >
       <div
-        className="font-bold text-blue-600 mb-1"
+        className="font-bold text-amber-600 mb-1"
         sx={{
           fontSize: `2`,
           fontWeight: `700`,

@@ -47,7 +47,7 @@ const BrainNote = ({ note }) => {
         popups[ln.slug] = (
           <div
             id={ln.slug}
-            className="w-64 p-4 bg-gray-100 rounded-lg shadow-lg border border-blue-200"
+            className="w-64 p-4 bg-gray-100 rounded-lg shadow-lg border border-amber-200"
           >
             <h5 className="mb-2">{ln.title}</h5>
             <p className="text-sm">{ln.childMdx.excerpt}</p>
@@ -66,7 +66,7 @@ const BrainNote = ({ note }) => {
         <h1 className="mb-4">{note.title}</h1>
         <MDXRenderer>{note.childMdx.body}</MDXRenderer>
       </div>
-      <div className="refs-box bg-blue-100 bg-opacity-50 border text-gray-600 rounded-md mb-4 p-4">
+      <div className="refs-box bg-amber-100 bg-opacity-50 border text-gray-600 rounded-md mb-4 p-4">
         {referenceBlock}
         <p className="text-sm m-0">
           If you'd like to share an idea or your thoughts on something in this note free to send me
