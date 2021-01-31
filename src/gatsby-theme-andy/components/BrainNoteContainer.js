@@ -21,7 +21,7 @@ const StackedPageWrapper = ({
   i,
 }) => {
   const isBrowser = typeof window !== `undefined`;
-
+console.log(slug)
   return (
     <PageIndexProvider value={i}>
       <div
@@ -35,10 +35,10 @@ const StackedPageWrapper = ({
             isBrowser && !window.location.search ? `opacity-0` : `opacity-100`
           } -mb-1 text-xs text-gray-500`}
         >
-          <LinkToStacked to={slug} className="no-underline">
+          <LinkToStacked to={`/${slug}`} className="no-underline">
             Bring note to top
           </LinkToStacked>
-          <Link to={slug} className="no-underline ml-3">
+          <Link to={`/${slug}`} className="no-underline ml-3">
             Open note as base
           </Link>
         </div>
@@ -52,13 +52,13 @@ const StackedPageWrapper = ({
               obstructed ? `-translate-x-4` : ``
             }`}
           >
-            <LinkToStacked to={slug} className="no-underline text-gray-900">
+            <LinkToStacked to={`/${slug}`} className="no-underline text-gray-900">
               <p className="m-0 font-bold">{title || slug}</p>
             </LinkToStacked>
           </div>
         </div>
         <div
-          className={`flex flex-col min-h-full transition-opacity duration-100 ${
+          className={`prose flex flex-col min-h-full transition-opacity duration-100 ${
             obstructed ? `opacity-0` : `opacity-100`
           }`}
         >
