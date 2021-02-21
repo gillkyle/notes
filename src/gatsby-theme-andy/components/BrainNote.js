@@ -66,9 +66,10 @@ const BrainNote = ({ note }) => {
         <h1 className="mb-4">{note.title}</h1>
         <MDXRenderer>{note.childMdx.body}</MDXRenderer>
       </div>
-      <div className="refs-box bg-amber-100 bg-opacity-50 border text-gray-600 rounded-md mb-4 p-4">
+      <div className="refs-box text-gray-600 mb-4">
+        <hr className="mx-auto w-32" />
         {referenceBlock}
-        <p className="text-sm m-0">
+        <p className="text-sm m-0 mb-4">
           If you'd like to share an idea or your thoughts on something in this note free to send me
           a <a href="https://twitter.com/messages/compose?recipient_id=375132818">direct message</a>{' '}
           on Twitter or an <a href="mailto:kylerobertgill+notes@gmail.com">email</a> and we can
