@@ -109,7 +109,7 @@ const BrainNotesContainer = ({ slug, note, location, siteMetadata }) => {
             <StackedPageWrapper
               PageIndexProvider={PageIndexProvider}
               i={0}
-              slug={slug}
+              slug={`/${slug}`}
               title={note.title}
               overlay={stackedPageStates[slug] && stackedPageStates[slug].overlay}
               obstructed={stackedPageStates[slug] && stackedPageStates[slug].obstructed}
