@@ -1,28 +1,28 @@
 import React, { useState } from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
-import Img from 'gatsby-image';
+// import { graphql, useStaticQuery } from 'gatsby';
+// import Img from 'gatsby-image';
 
 const Cycle = () => {
   const [step, setStep] = useState(1);
-  const data = useStaticQuery(graphql`
-    query CycleQuery {
-      images: allFile(
-        sort: { fields: relativePath }
-        filter: { relativePath: { regex: "/mused-park/" } }
-      ) {
-        nodes {
-          id
-          relativePath
-          childImageSharp {
-            id
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
-  `);
+  // const data = useStaticQuery(graphql`
+  //   query CycleQuery {
+  //     images: allFile(
+  //       sort: { fields: relativePath }
+  //       filter: { relativePath: { regex: "/mused-park/" } }
+  //     ) {
+  //       nodes {
+  //         id
+  //         relativePath
+  //         childImageSharp {
+  //           id
+  //           fluid {
+  //             ...GatsbyImageSharpFluid
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // `);
 
   const cycleChange = (stepAmount) => {
     if (step <= 1 && stepAmount <= 0) {
@@ -55,7 +55,8 @@ const Cycle = () => {
           Next Panel
         </button>
       </div>
-      <Img fluid={data.images.nodes[step - 1].childImageSharp.fluid} />
+      <img src={`/mused-park/${step.padStart(2, '0')}.jpg`} />
+      {/* <Img fluid={data.images.nodes[step - 1].childImageSharp.fluid} /> */}
     </div>
   );
 };
