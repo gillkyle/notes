@@ -55,10 +55,31 @@ const Cycle = () => {
           Next Panel
         </button>
       </div>
-      <img src={`/mused-park/${step.padStart(2, '0')}.jpg`} />
+      <img src={`/mused-park/${imageMap[step]}`} alt="comic" />
       {/* <Img fluid={data.images.nodes[step - 1].childImageSharp.fluid} /> */}
     </div>
   );
 };
 
 export default Cycle;
+
+const imageMap = {
+  1: '01.jpg',
+  2: '02.jpg',
+  3: '03.jpg',
+  4: '04.jpg',
+  5: '05.jpg',
+  6: '06.jpg',
+  7: '07.jpg',
+  8: '08.jpg',
+  9: '09.jpg',
+  10: '10.jpg',
+  11: '11.jpg',
+  12: '12.jpg',
+  13: '13.jpg',
+  14: '14.jpg',
+  15: '15.jpg',
+  16: '16.jpg',
+  17: '17.jpg',
+  18: '18.jpg',
+};

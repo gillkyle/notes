@@ -1,13 +1,11 @@
-import React from 'react';
+import { MDXProvider } from '@mdx-js/react';
 import { Link } from 'gatsby';
 import MDXRenderer from 'gatsby-plugin-mdx/mdx-renderer';
-import { MDXProvider } from '@mdx-js/react';
+import React from 'react';
 import { LinkToStacked } from 'react-stacked-pages-hook';
 
-import components from './MdxComponents';
 import useWindowWidth from '../../utils/useWindowWidth';
-
-const NOTE_WIDTH = 576;
+import components from './MdxComponents';
 
 const BrainNote = ({ note }) => {
   const [width] = useWindowWidth();

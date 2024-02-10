@@ -4,7 +4,7 @@ import '../style.css';
 
 export default () => (
   <div className="container max-w-2xl px-4 mx-auto text-gray-900 flex flex-col min-h-screen">
-    <p className="my-4">Hmm, Not sure if though about that... 🤔</p>
+    <p className="my-4">Hmm, Not sure if I thought about that...</p>
     <p className="text-sm m-0">
       Anyways, send me a{' '}
       <a href="https://twitter.com/messages/compose?recipient_id=375132818">direct message</a> on

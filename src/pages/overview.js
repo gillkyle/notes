@@ -1,5 +1,5 @@
-import React from 'react';
 import { Link } from 'gatsby';
+import React from 'react';
 
 import Header from '../gatsby-theme-andy/components/Header';
 
@@ -29,7 +29,7 @@ const Overview = ({ data }) => {
                 <h2 className="text-lg">{node.title}</h2>
                 <div>
                   ({node.inboundReferences.length} reference
-                  {!!node.inboundReferences.length && `s`})
+                  {node.inboundReferences.length === 1 ? `` : 's'})
                 </div>
               </div>
             </Link>
